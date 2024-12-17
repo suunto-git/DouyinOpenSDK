@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'liang.li' => '895176298@qq.com' }
   s.source           = { :git => 'git@github.com:suunto-git/DouyinOpenSDK.git', :tag => "#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.vendored_frameworks = "XiaoHongShuOpenSDK.framework"
+  s.vendored_frameworks = "DouyinOpenSDK.framework"
   s.ios.deployment_target = '10.0'
   # s.libraries        = ['z', 'sqlite3']  
    s.frameworks       = ['Foundation', 'UIKit']
