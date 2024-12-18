@@ -26,4 +26,4 @@ https://developer.open-douyin.com/
 
 ## Remark
 We encountered that the resource domain name https://sf3-ttcdn-tos.pstatp.com hosted by DouyinOpenSDK on cocoapods cannot be pulled by Apple server
-So use your own hosting to manage the library
+So use our own hosting to manage the library
