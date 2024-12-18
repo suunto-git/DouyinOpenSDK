@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'This SDK may be used to invoke Douyin features.'
   s.description      = 'Includes the following Douyin features: Share videos and photo to Douyin, Log In via Douyin.'
   s.homepage         = 'https://developer.open-douyin.com/'
-  s.license          = { :type => 'Copyright', :file => '"Copyright 2020 bytedance.com. All rights reserved.' }
+  s.license          = { :type => 'Copyright', :file => 'Copyright 2020 bytedance.com. All rights reserved' }
   s.author           = { 'ByteDance' => 'bytedance.com' }
   s.source           = { :git => 'git@github.com:suunto-git/DouyinOpenSDK.git', :tag => "#{s.version}" }
 
