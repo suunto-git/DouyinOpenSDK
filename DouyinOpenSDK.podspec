@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DouyinOpenSDK'
-  s.version          = '4.1.17'
+  s.version          = '4.1.17.1'
   s.summary          = 'This SDK may be used to invoke Douyin features.'
   s.description      = 'Includes the following Douyin features: Share videos and photo to Douyin, Log In via Douyin.'
   s.homepage         = 'https://developer.open-douyin.com/'
@@ -31,7 +31,6 @@ Pod::Spec.new do |s|
     'GENERATE_INFOPLIST_FILE' => 'YES'
   }
   s.user_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
     'GENERATE_INFOPLIST_FILE' => 'YES'
   }
 end
